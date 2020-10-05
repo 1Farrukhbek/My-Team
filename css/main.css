@@ -401,8 +401,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Livvic", "Arial", sans-serif;
+  font-weight: 600;
   font-size: 15px;
   line-height: 25px;
+  background-color: #014E56;
 }
 
 img {
