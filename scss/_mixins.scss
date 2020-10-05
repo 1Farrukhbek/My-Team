@@ -26,19 +26,8 @@
   line-height: 28px;
 }
 
-@mixin body-1 {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-@mixin body-2 {
-  font-size: 15px;
-  line-height: 25px;
-}
-
 
 // Psevdoelementdagi uchburchak
-
 @mixin triangle ($direction, $size: 15px, $color: black) {
   display: inline-block;
   width: 0;
