@@ -73,3 +73,14 @@
 .site-header__button {
   @include primary-light;
 }
+
+.site-header__togler {
+  display: none;
+  transition: all 0.9s ease;
+  
+  &:hover {
+    transform: rotate(360deg);
+  }
+  
+  @include btn-no-styles;
+}

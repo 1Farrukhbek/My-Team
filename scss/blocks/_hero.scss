@@ -1,0 +1,67 @@
+.hero {
+  padding-top: 130px;
+  padding-bottom: 250px;
+  // margin-bottom: 120px;
+  background-image: url(../../img/bg-pattern-home-1.svg), 
+  url(../../img/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-size: 200px, 360px;
+  background-position: left calc(50% - 680px) top 35%,
+  right calc(50% - 300px) bottom;
+  
+  @include breakpoint-down (1000px) {
+    padding-top: 120px;
+    background-image: url(../../img/bg-pattern-home-2.svg);
+    background-size: 360px;
+    background-position: right calc(50%) bottom;
+  }
+}
+
+.hero__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  
+  @include breakpoint-down (1000px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero__heading {
+  max-width: 600px;
+  color: $white;
+  
+  @include h1-large;
+  
+  .pink-heading {
+    color: $l-coral;
+  }
+  
+  @include breakpoint-down (1000px) {
+    margin-bottom: 24px;
+  }
+}
+
+.hero__left-side::before {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: $r-blue;
+  margin-bottom: 70px;
+  content: "";
+  
+  @include breakpoint-down (1000px) {
+    display: none;
+  }
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 450px;
+  color: $white;
+  margin: 0;
+}
