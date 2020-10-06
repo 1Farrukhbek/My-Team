@@ -1,0 +1,11 @@
+.quote {
+  padding-top: 140px;
+  padding-bottom: 150px;
+  background-color: $dj-green;
+  background-image: url(../../img/bg-pattern-home-1.svg), 
+  url(../../img/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-size: 200px, 360px;
+  background-position: left calc(50% - 680px) top 35%,
+  right calc(50% - 300px) bottom;
+}

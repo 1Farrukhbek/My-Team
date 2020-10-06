@@ -1,0 +1,81 @@
+.services {
+  padding-top: 200px;
+  padding-bottom: 140px;
+  background-color: $ss-green;
+  background-image: url(../../img/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: right calc(50% - 680px) bottom;
+}
+
+.services__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__heading {
+  position: relative;
+  max-width: 445px;
+  margin: 0;
+  color: $white;
+  @include h2-normal;
+
+  &::before {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    top: -50px;
+    background-color: $l-coral;
+    margin-bottom: 70px;
+    content: "";
+  }
+}
+
+.services__list {
+  max-width: 445px;
+  @include reset-list;
+}
+
+.service__item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.service__item::before {
+  position: absolute;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  top: 50%;
+  left: 0;
+  transform: translate(-90px, -60%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.service__item-img-1:before {
+  background-image: url("../../img/icon-person.svg");
+}
+
+.service__item-img-2:before {
+  background-image: url("../../img/icon-cog.svg");
+}
+
+.service__item-img-3:before {
+  background-image: url("../../img/icon-chart.svg");
+}
+
+
+.service__heading {
+  color: $l-coral;
+  margin-top: 0;
+  margin-bottom: 16px;
+  @include h3-normal;
+}
+
+.service__text {
+  margin: 0;
+  color: $white;
+}
