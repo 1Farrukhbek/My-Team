@@ -760,7 +760,7 @@ img {
 
 .quote {
   padding-top: 140px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   background-color: #004047;
   background-image: url(../../img/bg-pattern-home-4-about-3.svg), url(../../img/bg-pattern-home-5.svg);
   background-repeat: no-repeat;
@@ -818,7 +818,7 @@ img {
   max-width: 350px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-bottom: 94px;
+  margin-bottom: 145px;
   text-align: center;
   z-index: 1;
 }
@@ -887,5 +887,73 @@ img {
   font-size: 13px;
   line-height: 18px;
   color: #FFFFFF;
+}
+
+.promo {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-color: #F67E7E;
+  background-image: url(../../img/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: left calc(50% - 600px) bottom;
+}
+
+.promo__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.promo__heading {
+  max-width: 800px;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+  color: #012F34;
+}
+
+.promo__button {
+  display: inline-block;
+  text-decoration: none;
+  min-width: 50px;
+  max-width: 300px;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  color: #012F34;
+}
+
+.promo__button:hover {
+  background-color: #012F34;
+  color: #FFFFFF;
+}
+
+.promo__button:active {
+  opacity: 0.5;
+}
+
+.promo__button:disabled {
+  opacity: 0.25;
+}
+
+.promo__button:focus {
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

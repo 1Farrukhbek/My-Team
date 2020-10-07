@@ -1,0 +1,28 @@
+.promo {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-color: $l-coral;
+  background-image: url(../../img/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: left calc(50% - 600px) bottom;
+}
+
+.promo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.promo__heading {
+  max-width: 800px;
+  @include h2-normal;
+  margin: 0;
+  color: $ss-green;
+}
+
+.promo__button {
+  @include primary-dark;
+}
