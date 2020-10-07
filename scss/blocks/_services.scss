@@ -19,7 +19,7 @@
   margin: 0;
   color: $white;
   @include h2-normal;
-
+  
   &::before {
     position: absolute;
     display: inline-block;
