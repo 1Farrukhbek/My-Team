@@ -2,8 +2,8 @@
   padding-top: 140px;
   padding-bottom: 100px;
   background-color: $dj-green;
-  background-image: url(../../img/bg-pattern-home-4-about-3.svg), 
-  url(../../img/bg-pattern-home-5.svg);
+  background-image: url(../img/bg-pattern-home-4-about-3.svg), 
+  url(../img/bg-pattern-home-5.svg);
   background-repeat: no-repeat;
   background-size: 147px, 200px;
   background-position: left calc(50% - 630px) top,
@@ -54,7 +54,7 @@
   top: 0;
   left: 50%;
   transform: translate(-50%, -30px);
-  background-image: url("../../img/icon-quotes.svg");
+  background-image: url("../img/icon-quotes.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -80,15 +80,15 @@
 }
 
 .quote__item-img-1::after {
-  background-image: url("../../img/avatar-kady.jpg");
+  background-image: url("../img/avatar-kady.jpg");
 }
 
 .quote__item-img-2::after {
-  background-image: url("../../img/avatar-aiysha.jpg");
+  background-image: url("../img/avatar-aiysha.jpg");
 }
 
 .quote__item-img-3::after {
-  background-image: url("../../img/avatar-arthur.jpg");
+  background-image: url("../img/avatar-arthur.jpg");
 }
 
 .quote__blockquote {

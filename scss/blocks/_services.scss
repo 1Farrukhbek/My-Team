@@ -2,7 +2,7 @@
   padding-top: 200px;
   padding-bottom: 140px;
   background-color: $ss-green;
-  background-image: url(../../img/bg-pattern-home-3.svg);
+  background-image: url(../img/bg-pattern-home-3.svg);
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: right calc(50% - 680px) bottom;
@@ -56,15 +56,15 @@
 }
 
 .service__item-img-1:before {
-  background-image: url("../../img/icon-person.svg");
+  background-image: url("../img/icon-person.svg");
 }
 
 .service__item-img-2:before {
-  background-image: url("../../img/icon-cog.svg");
+  background-image: url("../img/icon-cog.svg");
 }
 
 .service__item-img-3:before {
-  background-image: url("../../img/icon-chart.svg");
+  background-image: url("../img/icon-chart.svg");
 }
 
 
